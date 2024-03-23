@@ -1,0 +1,25 @@
+body {
+  background-color: #4070f4;
+  color: white;
+}
+button {
+  background-color: #4070f4;
+  margin-right: 0;
+}
+
+nav {
+  background-color: white;
+  color: black;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+table, th, td {
+  border:1px solid black;
+}
