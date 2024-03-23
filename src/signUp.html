@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="./output.css">
+    <script defer src="./js/signUp.js"></script>
+</head>
+
+<body class=" bg-gradient-to-tl from-[#0300ba] to-black">
+    <div class=" text-white h-screen w-screen flex flex-col justify-center items-center ">
+        <form action="" id="SignUpForm" class="border-2 rounded-xl h-fit p-10 w-fit bg-[rgba(15,15,27,0.6)]">
+            <h1 class="font-extrabold flex flex-col justify-center items-center text-3xl">Create and account</h1>
+            <!-- Email -->
+            <div class="flex flex-col m-5">
+                <label for="">Your email</label>
+                <input type="email" class="p-2 mt-2 bg-gray-700 rounded focus:outline-blue-500"
+                    placeholder="pr@gmail.com">
+            </div>
+            <!-- Password -->
+            <div class="flex flex-col m-5">
+                <label for="">Password</label>
+                <input type="password" class="p-2 mt-2 bg-gray-700 rounded focus:outline-blue-500"
+                    placeholder="*******">
+            </div>
+            <!-- Confirm Password -->
+            <div class="flex flex-col m-5">
+                <label for="">Confirm Password</label>
+                <input type="password" class="p-2 mt-2 bg-gray-700 rounded" placeholder="*******">
+            </div>
+            <!-- CheckBox -->
+            <div class="flex flex-col m-5">
+                <p><input type="checkbox"
+                        class="accent-blue-500 border border-gray-300 bg-black ring-black ring-offset-1"> I accept
+                    the <a href="#" class="text-blue-600 hover:underline">Terms
+                        and Conditions</a>
+                </p>
+            </div>
+            <!-- Submit Button -->
+            <div class="flex flex-col m-5">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 rounded p-[10px]">
+                    Create an account
+                </button>
+            </div>
+            <!-- Already Have a Account -->
+            <div class="flex flex-col m-5">
+                <p>
+                    Already have an account?
+                    <a href="#" class="text-blue-600 hover:underline">
+                        Login here
+
+                    </a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
